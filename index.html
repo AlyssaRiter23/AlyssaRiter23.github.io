@@ -2,11 +2,94 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Alyssa Riter's Website</title>
+    <style>
+        
+
+        section {
+            padding: 2em;
+        }
+
+        
+        .interests, .projects, .social {
+            background-color: #fff;
+            margin: 1em 0;
+            padding: 1em;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .interests h2, .projects h2, .social h2 {
+            color: #333;
+        }
+
+        .interests ul, .projects ul, .social ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .interests li, .projects li, .social li {
+            margin-bottom: 0.5em;
+        }
+
+        .social a {
+            display: inline-block;
+            background-color: #333;
+            color: #fff;
+            padding: 0.5em;
+            margin-right: 0.5em;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Alyssa Riter</h1>
-    <h2>Computer Science and Engineering at the University of Notre Dame</h2>
-    <p>Welcome to my personal webpage where you can read more about my academics, passions, and projects!</p>
+
+    <header>
+        <h1>Alyssa Riter</h1>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <section>
+        <h2>Computer Science and Engineering at the University of Notre Dame</h2>
+        <p>Read further to learn more about my interests, passions, research, and porjects!</p>
+    </section>
+
+    <!-- New Section: Interests -->
+    <section class="interests">
+        <h2>Interests</h2>
+        <ul>
+            <li>Artificial Intelligence</li>
+            <li>The Outdoors</li>
+            <li>Reading</li>
+        </ul>
+    </section>
+
+    <!-- New Section: Personal Projects -->
+    <section class="projects">
+        <h2>Personal Projects</h2>
+        <ul>
+            <li>Knoweldge Extraction for Trustworthy AI</li>
+            <li>Machine Learning House Price Estimator</li>
+            <li>"Don't Crack the Egg!" Programming Game</li>
+        </ul>
+    </section>
+
+    <!-- New Section: Social Media Links -->
+    <section class="social">
+        <h2>Connect With Me!</h2>
+        <a href="#" target="_blank">LinkedIn</a>
+        <a href="#" target="_blank">GitHub</a>
+    </section>
+
+    <footer>
+        &copy; 2024 Alyssa Riter. All rights reserved.
+    </footer>
+
 </body>
 </html>
